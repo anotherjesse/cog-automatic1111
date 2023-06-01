@@ -1,0 +1,11 @@
+build:
+  gpu: true
+  cuda: "11.6"
+  python_version: "3.8"
+  python_packages:
+    - "webuiapi==0.9.0"
+  system_packages:
+    - ffmpeg
+    - libsm6
+    - libxext6
+predict: "predict.py:Predictor"
